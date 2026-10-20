@@ -1,4 +1,5 @@
 const artworkModule = {
+    id: "diamant-noir-motion",
     name: "Diamant Noir Motion Art",
     author: "j6m7zk6prj-coder",
     version: "1.0.0",
