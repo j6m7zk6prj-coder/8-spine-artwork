@@ -1,7 +1,8 @@
 const artworkModule = {
-    name: "Mon Module Pochette Animée",
-    author: "Moi",
-    version: "1.0",
+    name: "Diamant Noir Motion Art",
+    author: "j6m7zk6prj-coder",
+    version: "1.0.0",
+    description: "Pochette animée pour l'album Diamant Noir",
     
     getArtwork(track) {
         const targetAlbum = "Diamant noir";
