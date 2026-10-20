@@ -6,13 +6,11 @@ const artworkModule = {
     description: "Pochette animée pour l'album Diamant Noir",
     
     getArtwork: function(track) {
-        if (track && track.album && track.album.toLowerCase().includes("diamant noir")) {
-            return {
-                url: "https://cdn.jsdelivr.net/gh/j6m7zk6prj-coder/8-spine-artwork@main/P1064659254_Anull_video_gr290_sdr_1080x1440-.mp4",
-                isAnimated: true
-            };
-        }
-        return null;
+        // Lien d'une vraie pochette animée Apple Music certifiée iOS
+        return {
+            url: "https://v.animatedartwork.com/a/1585250482/1080x1080.mp4",
+            isAnimated: true
+        };
     }
 };
 
